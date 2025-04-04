@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# Gestor de Usuarios en React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto es una aplicación desarrollada con React que permite gestionar una lista de usuarios. Incluye funcionalidades para agregar, mostrar y eliminar usuarios, y está orientado a fortalecer el manejo del estado, props y componentes en React.
 
-## Available Scripts
+## 🚀 Instalación y ejecución
 
-In the project directory, you can run:
+1. Clonar el repositorio:
 
-### `npm start`
+``` bash
+git clone https://github.com/alonso1298/gestor-usuarios-react.git
+cd gestor-usuarios-react
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. Instalar dependencias:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+``` bash
+npm install
+```
 
-### `npm test`
+3. Ejecutar la aplicación:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+``` bash
+npm run dev
+```
 
-### `npm run build`
+## 🧠 Tecnologías utilizadas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- JavaScript
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- CSS 
 
-### `npm run eject`
+# 📂 Estructura del proyecto
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+gestor-usuarios-react/
+├── src/
+│   ├── components/     # Componentes funcionales como Formulario, ListaUsuarios
+│   ├── App.jsx         # Componente principal
+│   ├── main.jsx        # Punto de entrada
+├── public/
+├── package.json
+├── vite.config.js
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🧩 Funcionalidades
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Agregar usuarios mediante un formulario controlado
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Validación de campos vacíos
 
-## Learn More
+- Mostrar lista de usuarios registrados
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🎯 Conceptos React aplicados
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Estado con useState
 
-### Code Splitting
+- Props entre componentes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Eventos (onSubmit, onClick)
 
-### Analyzing the Bundle Size
+- Renderizado condicional
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## ✅ Requisitos
 
-### Making a Progressive Web App
+- Node.js >= 14
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- npm o yarn
 
-### Advanced Configuration
+## 📘 Recursos adicionales
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[React Docs](https://react.dev/)

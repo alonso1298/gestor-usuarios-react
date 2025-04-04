@@ -2,6 +2,8 @@
 
 Este proyecto es una aplicación desarrollada con React que permite gestionar una lista de usuarios. Incluye funcionalidades para agregar, mostrar y eliminar usuarios, y está orientado a fortalecer el manejo del estado, props y componentes en React.
 
+![Imagen de la pagina finalizada](https://github.com/alonso1298/gestor-usuarios-react/blob/f6bb4dd9d7c4fed4ab4d9e526e9b56495c47e03a/public/image.png)
+
 ## 🚀 Instalación y ejecución
 
 1. Clonar el repositorio:
